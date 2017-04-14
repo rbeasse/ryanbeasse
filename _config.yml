@@ -1,0 +1,22 @@
+markdown: kramdown
+theme: minima
+
+assets:
+  assets:
+    - 'js/application.js'
+    - 'css/application.css'
+    - 'particles.json'
+    - 'images/*'
+
+  sources:
+    - _assets
+
+  compress:
+    js:  true
+
+gems:
+  - jekyll-assets
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
