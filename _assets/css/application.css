@@ -1,7 +1,7 @@
 @keyframes rotate-colors {
-   0% { background-color: #304854; }
-  50% { background-color: #3d677c; }
-  100% {background-color: #304854; }
+   0% { background-color: #0f181d; }
+  50% { background-color: #05080a; }
+  100% {background-color: #0f181d; }
 }
 
 @keyframes bounceIn {
@@ -42,11 +42,13 @@ p {
 }
 
 p:last-of-type {
-  margin: 0;
+  margin: 25px 0 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
-  color: #304854;
+  color: #0f181d;
 }
 
 h1 {
@@ -69,21 +71,23 @@ h1 {
   background: url(../images/github.svg) no-repeat 12px 7px;
   background-size: 20px;
   fill: white;
-  background-color: #304854;
+  background-color: #0f181d;
   display: block;
-  margin-top: 40px;
+  margin-top: auto;
+  height: 20px;
   width: 80px;
   text-align: right;
 }
 
 .github-button:hover {
-  background-color: #3d677c;
+  background-color: #05080a;
 }
 
 .particles-js-canvas-el {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
   z-index: -1;
   animation: rotate-colors 60s infinite;
 }
