@@ -41,6 +41,10 @@ p {
   font-size: .9em;
 }
 
+p:last-of-type {
+  margin: 0;
+}
+
 a {
   color: #304854;
 }
@@ -48,19 +52,15 @@ a {
 h1 {
   margin: 0;
   font-family: 'Indie Flower', cursive;
-  border-bottom: 1px #e6f5f9 solid;
 
   /* We use a negative margin to account for the strange whitespace that
      our font has. */
   margin-bottom: -5px;
 }
-hr {
-  border: none;
-  padding: 5px;
-}
+
 
 .github-button {
-  padding: 7px 20px 7px 45px;
+  padding: 7px 15px 7px 45px;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -70,6 +70,10 @@ hr {
   background-size: 20px;
   fill: white;
   background-color: #304854;
+  display: block;
+  margin-top: 40px;
+  width: 80px;
+  text-align: right;
 }
 
 .github-button:hover {
