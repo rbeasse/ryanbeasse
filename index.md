@@ -9,5 +9,6 @@ Unfortunately there is not much content here at the moment. If you are intereste
 
 If you wish to contact me - please send an email to [hello@ryanbeasse.com](mailto:hello@ryanbeasse.com)
 
+{:.bottom}
 [View Github](https://github.com/rbeasse){:.github-button}
- ![logo](/assets/images/astronaut.svg){:height='60px'}{:.spaceman}
+ ![logo](/assets/images/ship.svg){:height='60px'}
